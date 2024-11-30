@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    consumer:
+      group-id: demo-multi-consumer-grp
+      bootstrap-servers: localhost:9092
+server:
+  port: 9192
